@@ -102,80 +102,80 @@ merged_data <- inner_join(actress_data, movie_data, by = c("knownForTitle" = "ti
 
  **Step 5**: Filter the data further based on specific conditions (e.g., removing non-English movies, ensuring only relevant data is retained):
 ```
- selected\_data \<- merged\_data %\>%  
-  select(primaryName, birthYear, primaryProfession, knownForTitle, year, stars, genres, gross\_worldwide, languages) %\>%  
-  filter(grepl("English", languages, ignore.case \= TRUE))  \# Keep only English language movies
+ selected_data <- merged_data %>%  
+  select(primaryName, birthYear, primaryProfession, knownForTitle, year, stars, genres, gross_worldwide, languages) %>%  
+  filter(grepl("English", languages, ignore.case = TRUE))  # Keep only English language movies
 ```
 
  **Step 6**: Create a new column `leadactors` by selecting the first 3 names from the `stars` column:
 ```
- selected\_data$leadactors \<- sapply(selected\_data$stars, function(x) {  
-  names \<- strsplit(gsub("\\\\\[|\\\\\]|'", "", x), ",\\\\s\*")\[\[1\]\]  
-  paste(head(names, 3), collapse \= ", ")  
+ selected_data$leadactors <- sapply(selected\_data$stars, function(x) {  
+  names <- strsplit(gsub("\\\\\[|\\\\\]|'", "", x), ",\\\\s\*")[\[1\]\]  
+  paste(head(names, 3), collapse = ", ")  
 })
 ```
 
  **Step 7**: Create a new column `check` to verify if the primary name appears in the `leadactors` list:
 ```
- selected\_data \<- selected\_data %\>%  
-  mutate(check \= mapply(function(name, leadactors) {  
-    stars\_clean \<- gsub("\\\\\[|\\\\\]|'", "", leadactors)  
-    stars\_list \<- strsplit(stars\_clean, ",\\\\s\*")\[\[1\]\]  
-    name %in% stars\_list  
+ selected_data <- selected_data %>%  
+  mutate(check = mapply(function(name, leadactors) {  
+    stars_clean <- gsub("\\\\\[|\\\\\]|'", "", leadactors)  
+    stars_list <- strsplit(stars_clean, ",\\\\s\*")[\[1\]\]  
+    name %in% stars_list  
   }, primaryName, leadactors))
 ```
 
  **Step 8**: Filter only rows where `check` is TRUE:
 ```
- filtered\_data \<- selected\_data %\>%  
-  filter(check \== TRUE)
+ filtered_data <- selected_data %>%  
+  filter(check == TRUE)
 ```
 
  **Step 9**: Remove rows with missing values in `gross_us_canada`:
 ```
- filtered\_data \<- filtered\_data %\>%  
-  filter(\!is.na(gross\_us\_canada) & gross\_us\_canada \!= "")
+ filtered_data <- filtered_data %>%  
+  filter(!is.na(gross_us_canada) & gross_us_canada != "")
 ```
 
  **Step 10**: Create a new column `PopAge` by subtracting `birthYear` from `year` to calculate the actress's age at the time of the movie release:
 ```
- filtered\_data \<- filtered\_data %\>%  
-  mutate(PopAge \= year \- birthYear)
+ filtered_data <- filtered_data %>%  
+  mutate(PopAge = year - birthYear)
   ```
   
  **Step 11**: Remove actresses under the age of 15:
 ```
- filtered\_data \<- filtered\_data %\>%  
-  filter(PopAge \> 15 | [is.na](http://is.na)(PopAge))
+ filtered_data <- filtered\_data %>%  
+  filter(PopAge > 15 | [is.na](http://is.na)(PopAge))
 ```
 
  **Step 12**: Remove rows where the `genres` column contains animation-related terms:
 ```
- filtered\_data \<- filtered\_data %\>%  
-  filter(\!grepl("Animation|Computer Animation|Anime|Documentary", genres, ignore.case \= TRUE))
+ filtered_data <- filtered_data %>%  
+  filter(!grepl("Animation|Computer Animation|Anime|Documentary", genres, ignore.case = TRUE))
 ```
 
  **Step 13**: Remove rows with years less than or equal to 1969:
 ```
- filtered\_data \<- filtered\_data %\>%  
-  filter(year \> 1969\)
+ filtered_data <- filtered_data %>%  
+  filter(year > 1969)
 ```
 
  **Step 14**: Create a new column `decade` based on the movie’s release year:
 ```
- filtered\_data \<- filtered\_data %\>%  
-  mutate(decade \= case\_when(  
-    year \>= 1970 & year \<= 1979 \~ "70s",  
-    year \>= 1980 & year \<= 1989 \~ "80s",  
-    TRUE \~ NA\_character\_  
+ filtered_data <- filtered_data %>%  
+  mutate(decade = case_when(  
+    year >= 1970 & year <= 1979 ~ "70s",  
+    year >= 1980 & year <= 1989 ~ "80s",  
+    TRUE ~ NA\_character\_  
   ))
 ```
 
  **Step 15**: View the number of actresses in each decade:
 ```
- filtered\_data %\>%  
-  group\_by(decade) %\>%  
-  summarise(actress\_count \= n\_distinct(primaryName)) %\>%  
+ filtered_data %>%  
+  group_by(decade) %>%  
+  summarise(actress_count = n_distinct(primaryName)) %>%  
   arrange(decade)
 ```
 
@@ -411,7 +411,8 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 * **Decade-wise**:
 
-![][image1]![][image2]  
+![][image1]![][imag![Image 2025-6-24 at 16 38 (1)](https://github.com/user-attachments/assets/c8149601-0f91-4833-a11c-0d8c75ac7a3a)
+e2]  
 	**Most dominant colors**:
 
 * Overall: brown  
@@ -427,6 +428,7 @@ To extend from the previous part. In this step, we visualized various patterns a
 * **Overall**: Brown and blue were the most common colors.
 
 * **Decade-wise**:
+![Image 2025-6-24 at 16 38](https://github.com/user-attachments/assets/45a256be-354e-4d74-a512-6bcd72db749f)
 
 ![][image3]![][image4]  
 **Most dominant colors**:
@@ -441,7 +443,8 @@ To extend from the previous part. In this step, we visualized various patterns a
 
   #### **Ethnicity Representation**
 
-  ![][image5]![][image6]
+![Image 2025-6-24 at 16 37](https://github.com/user-attachments/assets/6b65e36f-1f18-4315-b1b1-6f4854938934)
+
 
 * **Conclusion**   
 * **1970s:** Predominantly white representation with some Hispanic individuals present.  
@@ -454,6 +457,7 @@ To extend from the previous part. In this step, we visualized various patterns a
   **Skin Color Types by Ethnicity**
 
   #### 
+![Image 2025-6-24 at 16 36](https://github.com/user-attachments/assets/5a4ecdb1-dd44-4fed-af3a-4416be7257a4)
 
 ![][image7]
 
@@ -472,6 +476,7 @@ To extend from the previous part. In this step, we visualized various patterns a
   * **American Indian**: Type III.
 
   #### **Physical Characteristics: Age, BMI, Height, and Weight Trends**  
+![Image 2025-6-24 at 16 35 (1)](https://github.com/user-attachments/assets/059b9bc1-f37b-411c-9e21-6aac73cf24e5)
 
 ![][image8]  
 **Conclusion**   
@@ -500,23 +505,6 @@ To extend from the previous part. In this step, we visualized various patterns a
 
   * Increased until the 90s (58.1 kg) and then gradually decreased to 54.5 kg in the 2020s.
 
-  #### **BMI by Ethnicity**
-
-* **Asians**: The leanest with a median BMI of approximately 19\.
-
-* **American Indian or Alaska Native**: Median BMI slightly above 19\.
-
-* **Hispanic**: Median BMI around 19.5.
-
-* **White**: Median BMI between 19.5 and 20, with more variation and larger outliers.
-
-* **Black or African American**: The most corpulent group, with a median BMI around 20–20.5.
-
-![][image9]![][image10]
-
-![][image11]![][image12]
-
-![][image13]
 
 ***Actress’s Appearance Data***
 
@@ -553,6 +541,7 @@ In our project *Exploration of Beauty Standards and Age in Film (1970s–2020s)*
 * **Conclusion for H₁:** **Not supported** by the χ² test at α \= 0.05. There isn’t enough evidence to say that any one beauty “cluster” truly dominates in one decade versus another. However, there’s a feature that dominates each year.   
   ![][image14]
 
+![Image 2025-6-24 at 16 34 (1)](https://github.com/user-attachments/assets/40386fc3-eebc-492a-bcf3-71385c80ff7b)
 
 **Explanation of the cluster:**
 
@@ -602,8 +591,8 @@ From that you can craft human-readable definitions, for example:
 
 3. **Conclusion for H₂:** **Supported.** There is a significant upward trend in the proportion of under-30 actresses over time. **H₂ is confirmed**, but note the slight drop in 2020, consider whether sample size or external events (e.g., selection biases) could explain that dip.
    
-![Image 2025-6-24 at 16 32](https://github.com/user-attachments/assets/63f48741-7717-4efc-a084-41eadcbcdefc)
 
+![Image 2025-6-24 at 16 34](https://github.com/user-attachments/assets/40e8ef45-7ce9-448a-9b02-cb0627f44299)
 
 
 **Example Case Study**
@@ -669,8 +658,11 @@ Finally, we would like to extend our sincere appreciation to every member of our
 
 ## **References**
 
-1. Data sources  
-- Actor Data : [https://www.kaggle.com/datasets/rishabjadhav/imdb-actors-and-movies/data](https://www.kaggle.com/datasets/rishabjadhav/imdb-actors-and-movies/data)  
-- Movie Data : [https://www.kaggle.com/datasets/raedaddala/top-500-600-movies-of-each-year-from-1960-to-2024](https://www.kaggle.com/datasets/raedaddala/top-500-600-movies-of-each-year-from-1960-to-2024)
+Data Sources:
+* Actor Data: https://www.kaggle.com/datasets/rishabjadhav/imdb-actors-and-movies/data
+* Movie Data: https://www.kaggle.com/datasets/raedaddala/top-500-600-movies-of-each-year-from-1960-to-2024
+Supplemental References:
+* SnowWhite reference: https://www.bu.edu/articles/2025/new-snow-white-controversy/#:~:text=First%20there%20was%20the%20racist,arrive%20via%20a%20handsome%20prince.
+* Little Mermaid reference: https://www.thepostathens.com/article/2023/06/little-mermaid-remake-review
 
 
