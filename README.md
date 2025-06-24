@@ -655,6 +655,7 @@ Finally, we would like to extend our sincere appreciation to every member of our
 Data Sources:
 * Actor Data: https://www.kaggle.com/datasets/rishabjadhav/imdb-actors-and-movies/data
 * Movie Data: https://www.kaggle.com/datasets/raedaddala/top-500-600-movies-of-each-year-from-1960-to-2024
+
 Supplemental References:
 * SnowWhite reference: https://www.bu.edu/articles/2025/new-snow-white-controversy/#:~:text=First%20there%20was%20the%20racist,arrive%20via%20a%20handsome%20prince.
 * Little Mermaid reference: https://www.thepostathens.com/article/2023/06/little-mermaid-remake-review
