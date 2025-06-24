@@ -1,0 +1,121 @@
+Decade,Name,Pop Age,Height cm,Weight kg,BMI,BMI Status,Eye Color,Hair Color,Race,Estimated Fitzpatrick Skin Type
+70s,Carrie Fisher,21,155,48,19.98,Healthy Weight,Brown,Dark Brown,"English, Russian-Jewish",Type II
+70s,Olivia Newton-John,30,168,60,21.26,Healthy Weight,Blue,Golden Blonde,"English, German, Welsh",Type II
+70s,Margot Kidder,30,168,55,19.49,Healthy Weight,Hazel,Black,"English, Welsh",Type II
+70s,Lois Chiles,32,171,57,19.49,Healthy Weight,Blue,Brown,English,Type III
+70s,Talia Shire,30,163,55,20.70,Healthy Weight,Dark Brown,Black,Italian,Type II
+70s,Louise Fletcher,41,178,65,20.52,Healthy Weight,Blue,Dark Brown,"English, Irish, Scottish",Type II
+70s,Ali MacGraw,31,173,55,18.38,Healthy Weight,Dark Brown,Black,"Hungarian, Jewish, Scottish, German",Type III
+70s,Meryl Streep,30,168,63,22.32,Healthy Weight,Brown,Golden Blonde,"German, Swiss-German, English, Irish",Type I
+70s,Sondra Locke,34,163,45,16.94,Under Weight,Hazel,Golden Blonde,"English, Scottish",Type II
+70s,Bernadette Peters,31,160,50,19.53,Healthy Weight,Brown,Golden Blonde,Italian,Type I
+70s,Jamie Lee Curtis,20,170,58,20.07,Healthy Weight,Blue,Golden Blonde,"English, German, Danish",Type II
+70s,Barbara Bach,31,170,55,19.03,Healthy Weight,Blue,Dark Brown,"Austrian, Jewish",Type III
+70s,Jill St. John,31,168,55,19.49,Healthy Weight,Hazel,Red,"Russian, German",Type II
+70s,Mariel Hemingway,18,180,63,19.44,Healthy Weight,Blue,Blonde,"English, German",Type II
+70s,Diane Keaton,31,169,56,19.61,Healthy Weight,Green,Brown,"English, Irish, German",Type II
+70s,Ann Reinking,30,170,55,19.03,Healthy Weight,Blue,Black,"German, English",Type I
+70s,Maria Schneider,20,168,55,19.49,Healthy Weight,Dark Brown,Brown,"French, Romanian",Type III
+70s,Irene Miracle,24,163,52,19.57,Healthy Weight,Green,Brown,"Italian, Spanish",Type III
+70s,Marilyn Burns,25,160,50,19.53,Healthy Weight,Blue,Golden Blonde,"English, Scottish",Type II
+70s,Brooke Adams,29,168,55,19.49,Healthy Weight,Dark Brown,Black,English,Type II
+80s,Alison Doody,23,175,70,22.86,Healthy Weight,Grey,Blonde,WhiteIrish,Type II
+80s,Karen Allen,30,165,55,20.20,Healthy Weight,Blue,Dark Brown,American,Type II
+80s,Lea Thompson,24,163,53,19.95,Healthy Weight,Light Brown,Red,"Irish, English, German",Type I
+80s,Kelly McGillis,29,178,74,23.36,Healthy Weight,Dark Brown,Blonde,American,Type II
+80s,Valeria Golino,23,170,56,19.38,Healthy Weight,Blue,Dark Brown,"Italian, Greek, Egyptian",Type  III
+80s,Kate Capshaw,31,170,64,22.15,Healthy Weight,Brown,Blonde,American,Type  II
+80s,Linda Kozlowski,28,170,59,20.42,Healthy Weight,Blue,Blonde,"American, Polish",Type  II
+80s,Anne Archer,40,170,65,22.49,Healthy Weight,Brown,Brown,American,Type  II
+80s,Jennifer Grey,27,160,56,21.88,Healthy Weight,Light Brown,Light Brown,Jewish American,Type  II
+80s,Jessica Lange,33,171,54,18.47,Healthy Weight,Light Brown,Blonde,American,Type  II
+80s,Carey Lowell,28,178,58,18.31,Underweight,Brown,Dark Brown,American,Type  III
+80s,Bonnie Bedelia,40,163,57,21.45,Healthy Weight,Brown,Dark Brown,American,Type  II
+80s,Debra Winger,28,163,55,20.70,Healthy Weight,Brown,Dark Brown,American,Type  II
+80s,Melanie Griffith,31,177,63,20.11,Healthy Weight,Blue,Blonde,American,Type  II
+80s,Meg Ryan,28,173,57,19.05,Healthy Weight,Blue,Blonde,American,Type  II
+80s,Jennifer Beals,20,172,55,18.59,Healthy Weight,Brown,Brown,"Mixed African American, White",Type  III
+80s,Mary Elizabeth Mastrantonio,31,163,54,20.32,Healthy Weight,Dark Brown,Dark Brown,Italian American,Type  III
+80s,Bess Armstrong,30,163,53,19.95,Healthy Weight,Brown,Blonde,American,Type  II
+80s,Kathleen Turner,30,173,61,20.38,Healthy Weight,Blue,Blonde,American,Type  II
+80s,Cher,41,174,58,19.16,Healthy Weight,Brown,Brown,"American of Armenian, Cherokee ancestry",Type  III
+90s,Kate Winslet,22,169,63,22.06,Healthy Weight,Blue,"Red, Blonde",English,Type II
+90s,Laura Dern,26,179,61,19.04,Healthy Weight,Blue,Blonde,"German, Norwegian, Scottish",Type I–II
+90s,Natalie Portman,18,160,50,19.53,Healthy Weight,Hazel,Brown,Ashkenazi Jewish Israeli-American,Type III
+90s,Robin Wright,28,168,59,20.9,Healthy Weight,Blue,Blonde,"English, Irish, Scottish",Type II
+90s,Toni Collette,27,173,59,19.7,Healthy Weight,Blue,Blonde,Australian Irish descent,Type II
+90s,Whoopi Goldberg,35,165,78,28.7,Overweight,Dark Brown,Black,African-American,Type VI
+90s,Jami Gertz,31,165,55,20.2,Healthy Weight,Dark Brown,Dark Brown,Ashkenazi Jewish,Type III–IV
+90s,Carrie-Anne Moss,32,174,58,19.2,Healthy Weight,Blue,Dark Brown,"Canadian English, German",Type II–III
+90s,Julia Roberts,23,175,58,18.9,Healthy Weight,Hazel,"Auburn, Brown","English, Irish, Scottish",Type III
+90s,Whitney Houston,29,172,61,20.6,Healthy Weight,Dark Brown,Black,African-American,Type V
+90s,Maria Pitillo,32,160,50,19.5,Healthy Weight,Blue,Blonde,"Italian, Irish",Type II
+90s,Annette Bening,41,169,60,21,Healthy Weight,Blue,Light Brown,"German, English, Irish",Type II
+90s,Sharon Stone,34,174,58,19.2,Healthy Weight,Blue,Blonde,"German, Irish, Scottish",Type II
+90s,Izabella Scorupco,25,173,55,18.4,Underweight,Green,Blonde,"Polish, Swedish",Type II
+90s,Sandra Bullock,30,171,54,18.5,Healthy Weight,Dark Brown,Dark Brown,"German, English, Irish",Type III
+90s,Michelle Yeoh,35,163,49,18.4,Underweight,Dark Brown,Dark Brown,Malaysian-Chinese Han,Type IV
+90s,Helen Hunt,34,170,58,20.1,Healthy Weight,Blue,Blonde,"Ashkenazi Jewish, English",Type II
+90s,Heather Graham,29,173,57,19,Healthy Weight,Blue,Blonde,"German, Irish, Welsh",Type II
+90s,Amanda Donohoe,35,173,60,20,Healthy Weight,Blue,Brown,English,Type II
+90s,Gwyneth Paltrow,26,175,60,19.6,Healthy Weight,Blue,Blonde,"English, Ashkenazi Jewish",Type II
+2000s,Kristen Dunst,19,170,54,18.70,Healthy Weight,Blue,Blonde,"German, Swedish-American",Type II
+2000s,Megan Fox,21,163,52,19.60,Healthy Weight,Blue,Dark Brown,"English, Scottish-Irish, French, Welsh, Dutch",Type III
+2000s,Eva Green,23,170,55,19.00,Healthy Weight,Blue,Black,"French, Breton, Swedish, Spanish, Sephardi Jewish",Type II
+2000s,Alice Braga,23,163,55,20.70,Healthy Weight,Dark Brown,Dark Brown,"Brazilian, Portuguese, Indigenous, African",Type IV
+2000s,Connie Nielsen,33,178,59,18.60,Healthy Weight,Blue-Green,Blonde,Danish,Type II
+2000s,Lena Headey,32,166,54,19.60,Healthy Weight,Green,Dark Brown,"English, Irish",Type II
+2000s,Kristanna Loken,23,180,61,18.80,Healthy Weight,Blue,Blonde,"German, Norwegian",Type II
+2000s,Kate Bosworth,22,165,52,19.10,Healthy Weight,Blue-Hazel,Blonde,"English, Irish, German, Cornish, Welsh",Type I
+2000s,Freida Pinto,23,166,56,20.30,Healthy Weight,Hazel,Black,Konkani-Indian,Type V
+2000s,Nia Vardalos,30,168,60,21.30,Healthy Weight,Dark Brown,Light Brown,"Greek, Canadian, American",Type III
+2000s,Samantha Morton,24,160,61.2,23.90,Healthy Weight,Blue,Light Brown,"English, Polish",Type II
+2000s,Bridget Moynahan,32,177,57,18.20,Underweight,Hazel,Dark Brown,"Irish, American",Type III
+2000s,Anne Hathaway,23,173,56,18.70,Healthy Weight,Hazel,Dark Brown,"English, Irish, French, German",Type II
+2000s,Diane Kruger,32,170,57,19.70,Healthy Weight,Blue,Blonde,"German, Polish",Type II
+2000s,Jennifer Connelly,30,169,52,18.20,Underweight,Green,Dark Brown,"Irish, Norwegian, Ashkenazi Jewish",Type III
+2000s,Renée Zellweger,26,163,53,19.90,Healthy Weight,Blue,Blonde,"Swiss, Norwegian, Finnish-Kven, Swedish, Tornedalian, Danish, German, Scottish",Type II
+2000s,Drew Barrymore,24,163,67,25.50,Overweight,Green,Light Brown,"English, Irish, German, Hungarian",Type II
+2000s,Vanessa Hudgens,16,155,50,20.80,Healthy Weight,Dark Brown,Black,"English, Scottish, Irish, German, Filipino, Spanish, Chinese",Type IV
+2000s,Aníta Briem,25,163,54,20.30,Healthy Weight,Blue,Blonde,"Nordic, Icelandic",Type II
+2000s,Maggie Grace,23,175,63,20.60,Healthy Weight,Green,Blonde,"English, German, Scots-Irish",Type II
+2010s,Daisy Ridley,23,170,55,19.03,Healthy Weight,Brown,Dark Brown,English,Type II
+2010s,Amber Heard,32,170,59,20.42,Healthy Weight,Green,Golden Blonde,"English, Irish, Scottish, German, Welsh",Type I
+2010s,Naomi Scott,26,168,56,19.84,Healthy Weight,Dark Brown,Dark Brown,"Indian, English",Type IV
+2010s,Mia Wasikowska,21,162,52,19.81,Healthy Weight,Brown,Blonde,"Polish, Australian",Type II
+2010s,Gal Gadot,32,178,58,18.31,Healthy Weight,Brown,Brown,"Czech, Polish, Austria, Russia, German",Type III
+2010s,Margot Robbie,26,168,57,20.20,Healthy Weight,Blue,Blonde,Scottish,Type II
+2010s,Jennifer Lawrence,22,175,63,20.57,Healthy Weight,Blue ,Blonde,"English, German, Irish, Scottish",Type II
+2010s,Olivia Cooke,25,166,54,19.60,Healthy Weight,Dark Brown,Brown,English,Type III
+2010s,Dakota Johnson,26,173,50,16.71,Under Weight,Grey-Green,Brown,"English, Irish, Spanish",Type II
+2010s,Lily James,26,170,55,19.03,Healthy Weight,Brown,Light Brown,English,Type II
+2010s,Emma Stone,28,168,53,18.78,Healthy Weight,Hazel-Green,Brown,"Swedish, German, British",Type I
+2010s,Tao Okamoto,28,177,52,16.60,Under Weight,Brown,Black,Japanese,Type III
+2010s,Olivia Wilde,26,171,55,18.81,Healthy Weight,Blue,Blonde,"English, Irish, Scottish, German, Manx",Type II
+2010s,Kristen Stewart,22,165,54,19.83,Healthy Weight,Green,Brown,"English, Irish, Scottish, Welsh, Ashkenazi Jewish",Type II
+2010s,Rosamund Pike,35,174,58,19.16,Healthy Weight,Blue,Blonde,English,Type II
+2010s,Gemma Arterton,24,170,68,23.53,Healthy Weight,Dark Brown,Dark Brown,English and Irish,Type IV
+2010s,Fatima Sana Shaikh,24,160,51,19.92,Healthy Weight,Dark Brown,Dark Brown,Indian,Type IV
+2010s,Shailene Woodley,23,173,60,20.05,Healthy Weight,Green,Light Brown,"English, Creole",Type III
+2010s,Ana de Armas,29,168,53,18.78,Healthy Weight,Hazel,Brown,Cuban-Spanish,Type II
+2010s,Emma Roberts,22,160,51,19.92,Healthy Weight,Hazel-Brown,Light Brown,"English, Scottish, Irish, Welsh, German, Swedish",Type III
+2020s ,Halle Bailey,23,157,52,21.1,Healthy Weight,Dark Brown,Dark Brown,African-American,Type V–VI
+2020s ,Freya Allan,23,161,49,18.9,Healthy Weight,Blue,Light Brown,English,Type II
+2020s ,Sasha Calle,28,170,54,18.7,Healthy Weight,Brown,Dark Brown,Colombian-American Latina,Type IV
+2020s ,Keke Palmer,29,168,57,20.2,Healthy Weight,Dark Brown,Black,African-American,Type V
+2020s ,Melissa Barrera,33,170,57,19.7,Healthy Weight,Brown,Dark Brown,Mexican Latina,Type IV
+2020s ,Bruna Marquezine,28,170,57,19.7,Healthy Weight,Brown,Dark Brown,"Brazilian Portuguese, Italian",Type III–IV
+2020s ,Mariana Treviño,45,160,55,21.5,Healthy Weight,Brown,Dark Brown,Mexican,Type IV
+2020s ,Reneé Rapp,24,170,60,20.8,Healthy Weight,Blue,Blonde,Caucasian American,Type II
+2020s ,Andi Matichak,28,173,56,18.7,Healthy Weight,Blue,Light Brown,Caucasian Slavic descent,Type II–III
+2020s ,Thuso Mbedu,31,157,50,20.3,Healthy Weight,Dark Brown,Black,"South African Zulu, Sotho",Type VI
+2020s ,Alexandra Essoe,31,170,54,18.7,Underweight,Hazel,Dark Brown,Caucasian White,Type II
+2020s ,Rachel Zegler,20,157,50,20.3,Healthy Weight,Brown,Black,"Colombian, Polish",Type III
+2020s ,Maisie Williams,23,155,51,21.2,Healthy Weight,Blue,Light Brown,"English, White",Type II
+2020s ,Georgina Campbell,30,168,58,20.5,Healthy Weight,Dark Brown,Dark Brown,"Black, English",Type IV
+2020s ,Leslie Grace,26,170,56,19.4,Healthy Weight,Brown,Dark Brown,Afro-Latina Dominican,Type IV–V
+2020s ,Taegen Burns,17,163,52,19.6,Healthy Weight,Blue,Dark Brown,Caucasian,Type II
+2020s ,Greta Lee,40,165,54,19.8,Healthy Weight,Brown,Black,Korean East Asian,Type III
+2020s ,Sandra Hüller,45,173,61,20.4,Healthy Weight,Blue,Strawberry Blonde,Germanic White,Type I–II
+2020s ,Alana Haim,30,170,60,20.8,Healthy Weight,Hazel,Brown,Jewish-American White,Type II
+2020s ,Cailee Spaeny,25,155,48,19.98,Healthy Weight,Blue,Dark Brown,Caucasian,Type II
