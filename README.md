@@ -411,8 +411,8 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 * **Decade-wise**:
 
-![][image1]![][imag![Image 2025-6-24 at 16 38 (1)](https://github.com/user-attachments/assets/c8149601-0f91-4833-a11c-0d8c75ac7a3a)
-e2]  
+![Image 2025-6-24 at 16 38 (1)](https://github.com/user-attachments/assets/c8149601-0f91-4833-a11c-0d8c75ac7a3a)
+ 
 	**Most dominant colors**:
 
 * Overall: brown  
@@ -429,8 +429,7 @@ e2]
 
 * **Decade-wise**:
 ![Image 2025-6-24 at 16 38](https://github.com/user-attachments/assets/45a256be-354e-4d74-a512-6bcd72db749f)
-
-![][image3]![][image4]  
+ 
 **Most dominant colors**:
 
 * Overall: brown and blue  
@@ -459,8 +458,6 @@ e2]
   #### 
 ![Image 2025-6-24 at 16 36](https://github.com/user-attachments/assets/5a4ecdb1-dd44-4fed-af3a-4416be7257a4)
 
-![][image7]
-
 #### 
 
 * **Most dominant color types**:
@@ -478,7 +475,6 @@ e2]
   #### **Physical Characteristics: Age, BMI, Height, and Weight Trends**  
 ![Image 2025-6-24 at 16 35 (1)](https://github.com/user-attachments/assets/059b9bc1-f37b-411c-9e21-6aac73cf24e5)
 
-![][image8]  
 **Conclusion**   
 **Pop Age**: Increased from 28.4 (70s) to 29.8 (80s), then dropped to 25.2 (2000s), and rose again to 28.9 (2020s).  
 **BMI**: Fluctuated slightly between 19.4 and 20.5.  
@@ -539,8 +535,6 @@ In our project *Exploration of Beauty Standards and Age in Film (1970s–2020s)*
   * In other words, although the bar-fill plot shows some visual shifts (e.g. Cluster 3 dominating the ’90s), those differences aren’t strong enough, given your sample sizes, to conclude a real change in “dominant” beauty clusters across decades.
 
 * **Conclusion for H₁:** **Not supported** by the χ² test at α \= 0.05. There isn’t enough evidence to say that any one beauty “cluster” truly dominates in one decade versus another. However, there’s a feature that dominates each year.   
-  ![][image14]
-
 ![Image 2025-6-24 at 16 34 (1)](https://github.com/user-attachments/assets/40386fc3-eebc-492a-bcf3-71385c80ff7b)
 
 **Explanation of the cluster:**
