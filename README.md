@@ -1,12 +1,10 @@
-# **Project Title**
+# :movie_camera: Exploration of Beauty Standards and Age in Film (1970s-2020s)
+The title "Exploration of Beauty Standards and Age in Film (1970s–2020s)" reflects our central inquiry into how film industries, particularly Hollywood, have portrayed ideals of female beauty and age over time. The motivation for this project stems from increasing public discussions around media representation, ageism, and racial inclusivity. Despite growing awareness, mainstream films have historically favored narrow beauty norms—prioritizing youth, whiteness, and slim body types.
 
-Exploration of Beauty Standards and Age in Film (1970s-2020s)
+## :earth_asia: Project Description
+This project investigates the evolution of beauty standards and age representation among leading actresses in the film industry, spanning from the 1970s through the 2020s. By leveraging comprehensive datasets from IMDb and detailed appearance data sourced from celebrity databases, we examined a range of physical characteristics—height, BMI, hair and eye color, skin tone—as well as the age at which actresses reached peak popularity (“pop age”) within each decade. Employing data filtering, integration, and visualization in R, our analysis uncovers notable shifts: while some longstanding ideals persist, there has been a measurable increase in diversity regarding race, body image, and age representation. These findings highlight both the enduring influence of traditional beauty norms and the emergence of a more inclusive cinematic landscape over the past fifty years.
 
-## **Project Description**
-
-This project examines how beauty standards and age representation among leading actresses have evolved in the film industry from the 1970s to the 2020s. Using large-scale datasets from IMDb and appearance data scraped from celebrity databases, we analyzed trends in physical traits—such as height, BMI, hair and eye color, and skin tone—as well as age at peak popularity ("pop age") for top-grossing actresses in each decade. By combining data filtering, integration, and visualization using R, we reveal how race, body image, and age dynamics have shifted over time, highlighting both persistent ideals and growing inclusivity in cinematic representation.
-
-#  **File Structure**
+# **File Structure**
 
 All File is [HERE](https://drive.google.com/drive/folders/1BXokCrC1BqL0BbPJgImccbzNo2T6ghAu?usp=sharing)
 
