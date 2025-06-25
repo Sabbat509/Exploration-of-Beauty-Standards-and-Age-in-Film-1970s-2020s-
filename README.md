@@ -358,7 +358,7 @@ if (!"Decade" %in% names(df_clean)) {
 
 * **Step 3: Hypothesis Test (Continue form the Steps above)**
 
-## **Hypothesis 1: Cluster × Decade**
+## :reminder_ribbon: **Hypothesis 1: Cluster × Decade**
 
 14. Proportional bar-fill chart
 
@@ -376,7 +376,7 @@ print(chi1)
 
 ---
 
-## **Hypothesis 2: Youth trend**
+## :reminder_ribbon: **Hypothesis 2: Youth trend**
 
 16. Calculate percent under 30 by decade
 
@@ -407,7 +407,7 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 #### 💁‍♀️ **Dominant Hair Colors**
 
-* **Overall**: :brown_heart: Brown was the most dominant hair color.
+* **Overall**: :brown_heart: $${\color{lightblue}Brown}$$  was the most dominant hair color.
 
 * **Decade-wise**:
 
@@ -415,7 +415,7 @@ To extend from the previous part. In this step, we visualized various patterns a
  
 **Most dominant colors**:
 
-* Overall: $${\color{lightblue}brown}$$ 
+* Overall: ***brown*** 
 * 70s: blonde and brown  
 * 80s: brown  
 * 90s: blonde  
@@ -425,14 +425,14 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 #### 👁️ **Dominant Eyes Color by Decade**
 
-* **Overall**: :brown_heart::blue_heart: Brown and blue were the most common colors.
+* **Overall**: :brown_heart::blue_heart: $${\color{lightblue}Brown}$$ and $${\color{lightblue}blue}$$  were the most common colors.
 
 * **Decade-wise**:
 ![Image 2025-6-24 at 16 38](https://github.com/user-attachments/assets/45a256be-354e-4d74-a512-6bcd72db749f)
  
 **Most dominant colors**:
 
-* Overall: $${\color{lightblue}brown \space and \space blue}$$  
+* Overall: ***brown and blue*** 
 * 70s: blue  
 * 80s: brown  
 * 90s: blue  
@@ -442,7 +442,7 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 #### ⛪ **Ethnicity Representation**
 
-* **Overall**: :white_heart: White remained the most dominant group despite a gradual decline in their proportion in more recent decades.
+* **Overall**: :white_heart: $${\color{lightblue}White}$$ remained the most dominant group despite a gradual decline in their proportion in more recent decades.
   
 * **Decade-wise**:
 ![Image 2025-6-24 at 16 37](https://github.com/user-attachments/assets/6b65e36f-1f18-4315-b1b1-6f4854938934)
@@ -458,7 +458,7 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 ### 🙋‍♀️ **Skin Color Types by Ethnicity**
 
-* **Overall**: :white_heart: Fitzpatrick Skin Type II has remained the most consistently represented skin type, which corresponds to White individuals.
+* **Overall**: :white_heart: $${\color{lightblue}Fitzpatrick \space Skin \space Type \space II}$$ has remained the most consistently represented skin type, which corresponds to White individuals.
 
 * **Decade-wise**:
 ![Image 2025-6-24 at 16 36](https://github.com/user-attachments/assets/5a4ecdb1-dd44-4fed-af3a-4416be7257a4)
