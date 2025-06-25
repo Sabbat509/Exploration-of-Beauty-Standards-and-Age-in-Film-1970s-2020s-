@@ -1,10 +1,10 @@
 # :movie_camera: Exploration of Beauty Standards and Age in Film (1970s-2020s)
-The title "Exploration of Beauty Standards and Age in Film (1970s–2020s)" reflects our central inquiry into how film industries, particularly Hollywood, have portrayed ideals of female beauty and age over time. The motivation for this project stems from increasing public discussions around media representation, ageism, and racial inclusivity. Despite growing awareness, mainstream films have historically favored narrow beauty norms—prioritizing youth, whiteness, and slim body types.
+The title "Exploration of Beauty Standards and Age in Film (1970s–2020s)" reflects our central inquiry into how film industries, particularly Hollywood, have portrayed ideals of female beauty and age over time. The motivation for this project stems from increasing public discussions around media representation, ageism, and racial inclusivity. Despite growing awareness, mainstream films have historically favored narrow beauty norms—prioritizing youth, whiteness, and slim body types. By leveraging big data tools to analyze leading actresses’ physical and demographic attributes across decades, our project seeks to uncover how these standards have changed—or remained static—amid broader societal shifts.
 
-## :earth_asia: Project Description
+## :woman_dancing: Project Description
 This project investigates the evolution of beauty standards and age representation among leading actresses in the film industry, spanning from the 1970s through the 2020s. By leveraging comprehensive datasets from IMDb and detailed appearance data sourced from celebrity databases, we examined a range of physical characteristics—height, BMI, hair and eye color, skin tone—as well as the age at which actresses reached peak popularity (“pop age”) within each decade. Employing data filtering, integration, and visualization in R, our analysis uncovers notable shifts: while some longstanding ideals persist, there has been a measurable increase in diversity regarding race, body image, and age representation. These findings highlight both the enduring influence of traditional beauty norms and the emergence of a more inclusive cinematic landscape over the past fifty years.
 
-# **File Structure**
+## :open_file_folder: File Structure
 
 All File is [HERE](https://drive.google.com/drive/folders/1BXokCrC1BqL0BbPJgImccbzNo2T6ghAu?usp=sharing)
 
