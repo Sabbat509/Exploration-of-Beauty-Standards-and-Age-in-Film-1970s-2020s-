@@ -1,8 +1,8 @@
 # :movie_camera: Exploration of Beauty Standards and Age in Film (1970s-2020s)
-The title "Exploration of Beauty Standards and Age in Film (1970s–2020s)" reflects our central inquiry into how film industries, particularly Hollywood, have portrayed ideals of female beauty and age over time. The motivation for this project stems from increasing public discussions around media representation, ageism, and racial inclusivity. Despite growing awareness, mainstream films have historically favored narrow beauty norms—prioritizing youth, whiteness, and slim body types. By leveraging big data tools to analyze leading actresses’ physical and demographic attributes across decades, our project seeks to uncover how these standards have changed—or remained static—amid broader societal shifts.
+The title "Exploration of Beauty Standards and Age in Film (1970s–2020s)" reflects our central inquiry into how film industries, particularly Hollywood, have portrayed ideals of ***female beauty and age*** over time. The motivation for this project stems from increasing public discussions around media representation, ageism, and racial inclusivity. Despite growing awareness, mainstream films have historically favored narrow beauty norms—prioritizing youth, whiteness, and slim body types. By leveraging big data tools to analyze leading actresses’ physical and demographic attributes across decades, our project seeks to uncover how these standards have changed—or remained static—amid broader societal shifts.
 
 ## :woman_dancing: Project Description
-This project investigates the evolution of beauty standards and age representation among leading actresses in the film industry, spanning from the 1970s through the 2020s. By leveraging comprehensive datasets from IMDb and detailed appearance data sourced from celebrity databases, we examined a range of physical characteristics—height, BMI, hair and eye color, skin tone—as well as the age at which actresses reached peak popularity (“pop age”) within each decade. Employing data filtering, integration, and visualization in R, our analysis uncovers notable shifts: while some longstanding ideals persist, there has been a measurable increase in diversity regarding race, body image, and age representation. These findings highlight both the enduring influence of traditional beauty norms and the emergence of a more inclusive cinematic landscape over the past fifty years.
+This project investigates the evolution of beauty standards and age representation among ***leading actresses*** in the film industry, spanning from the 1970s through the 2020s. By leveraging comprehensive datasets from IMDb and detailed appearance data sourced from celebrity databases, we examined a range of physical characteristics—height, BMI, hair and eye color, skin tone—as well as the age at which actresses reached peak popularity ***(“pop age”)*** within each decade. Employing data filtering, integration, and visualization in R, our analysis uncovers notable shifts: while some longstanding ideals persist, there has been a measurable increase in diversity regarding race, body image, and age representation. These findings highlight both the enduring influence of traditional beauty norms and the emergence of a more inclusive cinematic landscape over the past fifty years.
 
 ## :open_file_folder: File Structure
 
@@ -12,7 +12,7 @@ All File is [HERE](https://drive.google.com/drive/folders/1BXokCrC1BqL0BbPJgImcc
 
 In our project *Exploration of Beauty Standards and Age in Film (1970s–2020s)*, we performed big data analysis by collecting and merging multiple datasets related to film, actress profiles, and appearance attributes. The organization of our project files is outlined as follows:
 
-**Actress\_filtered.R** \[[link](https://drive.google.com/file/d/1vs9lOUWFAPGvzUWx7be_EL3217mUaPoP/view?usp=sharing)\] **:** This script performs data filtering to isolate actresses from the actor dataset. It uses Actor data.csv as its data source, removing male actors and retaining only female profiles relevant to our project.
+**Actress\_filtered.R** \[[link](https://drive.google.com/file/d/1vs9lOUWFAPGvzUWx7be_EL3217mUaPoP/view?usp=sharing)\] **:** This script performs data filtering to isolate actresses from the actor dataset. It uses $${\color{lightgreen}actor data.csv}$$ as its data source, removing male actors and retaining only female profiles relevant to our project.
 
 **actresses\_data.xlsx** \[[link](https://docs.google.com/spreadsheets/d/172gW1DGLaMyWCT1ZpDLPbnC38VPz5uJx/edit?usp=drive_link&ouid=106441372852148497073&rtpof=true&sd=true)\] : This dataset provides structured details of actresses, including their full name, birth year, profession, and a notable movie they are associated with. Initially, it included both male and female actors; however, male actors have been filtered out. The current version contains only actress data, which will be used for further analysis.
 
@@ -20,13 +20,14 @@ In our project *Exploration of Beauty Standards and Age in Film (1970s–2020s)*
 
 **ActressAppearanceDataCollection.csv** \[[link](https://drive.google.com/file/d/1gqn_QQfBC0ojyA13Oqs2YKj4pu8g-Nfb/view?usp=share_link)\]This file contains detailed attribute data for each actress, including physical appearance information such as skin tone (classified using the Fitzpatrick Skin Type Scale), hair color, eye color, height, weight, BMI, and ethnicity. It serves as a key dataset for analyzing visual and demographic trends among top actresses across decades.
 
-**G2\_Analysis.R** \[[link](https://drive.google.com/file/d/1bbGJp2FPM39IjpB0Ym1BrTszgW5Pnkhu/view?usp=drive_link)\]**:** This script contains the core analysis logic for the project. It uses data from **ActressAppearanceDataCollection.csv** to modify in order to calculate performance indicators, which will be **Final\_Cleaned\_Dataset.csv** \[[link](https://drive.google.com/file/d/1TVirMj98wPEw0W2hTLrkeiYecLvY0H0Z/view?usp=sharing)\], appearance trends, and age statistics. We polised the categorical information to be more precise to enhance the accuracy. For example. Race \-\> Race\_Category, Hair Color \-\> Hair\_Category the defined them in 3 different clusters. 
+**G2\_Analysis.R** \[[link](https://drive.google.com/file/d/1bbGJp2FPM39IjpB0Ym1BrTszgW5Pnkhu/view?usp=drive_link)\]**:** This script contains the core analysis logic for the project. It uses data from **ActressAppearanceDataCollection** to modify in order to calculate performance indicators, which will be $${\color{lightgreen}Final cleaned dataset.csv}$$ \[[link](https://drive.google.com/file/d/1TVirMj98wPEw0W2hTLrkeiYecLvY0H0Z/view?usp=sharing)\], appearance trends, and age statistics. We polised the categorical information to be more precise to enhance the accuracy. For example. Race \-\> Race\_Category, Hair Color \-\> Hair\_Category the defined them in 3 different clusters. 
 
-The file has additionally contained The results enable comparative analysis of beauty standards and representation across different decades.
+> [!NOTE]
+> The file has additionally contained The results enable comparative analysis of beauty standards and representation across different decades.
 
 **DataVisualization.R** \[[link](https://drive.google.com/file/d/1uUKJwzADyINvALmorpAwdYfmL34cNRo-/view?usp=share_link)\] **:** This script focuses on data visualization. It generates graphs and charts to visually represent trends in age, appearance, and diversity across different decades in the film industry.
 
-**Getting Started**
+##  :clapper: Getting Started
 
 This project demonstrates the process of filtering data, which is then used for visualization. Below, you'll find a step-by-step guide on how to filter the dataset and prepare it for the visualization stage, including the corresponding code for each step.
 
@@ -46,7 +47,7 @@ Here’s the breakdown or explanation of what we did in the filtered dataset to 
 
  **Step 1**: Download the raw data file “combined.csv”  from this Kaggle [link](https://www.kaggle.com/datasets/rishabjadhav/imdb-actors-and-movies/data)
 
-Start with coding:  
+Start with the code:
 Load the necessary libraries for data manipulation:
 ```
 library(readxl)  # To read Excel files  
@@ -190,7 +191,8 @@ After identifying the top model names, we proceeded to collect additional person
 
 You can find the processed file here: [Download processed model profiles](https://drive.google.com/file/d/1TVirMj98wPEw0W2hTLrkeiYecLvY0H0Z/view?usp=sharing)
 
-#### **3\. Data Analysing**
+## :chart_with_upwards_trend: Analysis
+#### **1\. Data Analysing**
 
 This part please refer to the [**G2\_Analysis.R**](https://drive.google.com/file/d/1TVirMj98wPEw0W2hTLrkeiYecLvY0H0Z/view?usp=sharing)**,** which contains the explanatory procedure by utilizing R coding. The file will contain both the analysis part and the visualization part. 
 
@@ -399,13 +401,13 @@ summary(glm_y)
 
 19. Quantify the strength and direction of the decade effect on being “Youth.”
 
-#### 4\. Data Visualization 
+#### **2 \.Data Visualization**
 
 To extend from the previous part. In this step, we visualized various patterns and trends found in the data, focusing on the representation of dominant colors, age, BMI, height, and weight across different decades. Here are the key conclusions from the visualizations:
 
-#### **Dominant Hair Colors**
+#### 💁‍♀️ **Dominant Hair Colors**
 
-* **Overall**: Brown was the most dominant hair color.
+* **Overall**: :brown_heart: Brown was the most dominant hair color.
 
 * **Decade-wise**:
 
@@ -421,9 +423,9 @@ To extend from the previous part. In this step, we visualized various patterns a
 * 2010s: brown  
   * 2020s: brown
 
-  #### **Dominant Eyes Color by Decade**
+#### 👁️ **Dominant Eyes Color by Decade**
 
-* **Overall**: Brown and blue were the most common colors.
+* **Overall**: :brown_heart: :blue_heart: Brown and blue were the most common colors.
 
 * **Decade-wise**:
 ![Image 2025-6-24 at 16 38](https://github.com/user-attachments/assets/45a256be-354e-4d74-a512-6bcd72db749f)
@@ -438,7 +440,7 @@ To extend from the previous part. In this step, we visualized various patterns a
 * 2010s: brown  
 * 2020s: brown
 
-  #### **Ethnicity Representation**
+#### ⛪ **Ethnicity Representation**
 
 ![Image 2025-6-24 at 16 37](https://github.com/user-attachments/assets/6b65e36f-1f18-4315-b1b1-6f4854938934)
 
@@ -451,9 +453,8 @@ To extend from the previous part. In this step, we visualized various patterns a
 * **2010s:** White remained the dominant group, with a noticeable increase in Asian representation and the continued presence of some Hispanic individuals.  
 * **2020s:** While white individuals still formed the largest group, their representation decreased compared to previous decades. There was a significant increase in Black or African American representation, a continued presence of some Asian individuals, and a greater Hispanic representation than before.
 
-  **Skin Color Types by Ethnicity**
+### 🙋‍♀️ **Skin Color Types by Ethnicity**
 
-  #### 
 ![Image 2025-6-24 at 16 36](https://github.com/user-attachments/assets/5a4ecdb1-dd44-4fed-af3a-4416be7257a4)
 
 #### 
@@ -470,7 +471,7 @@ To extend from the previous part. In this step, we visualized various patterns a
 
   * **American Indian**: Type III.
 
-  #### **Physical Characteristics: Age, BMI, Height, and Weight Trends**  
+#### :bust_in_silhouette: **Physical Characteristics: Age, BMI, Height, and Weight Trends**  
 ![Image 2025-6-24 at 16 35 (1)](https://github.com/user-attachments/assets/059b9bc1-f37b-411c-9e21-6aac73cf24e5)
 
 **Conclusion**   
@@ -516,7 +517,7 @@ Combine the scraped attributes and estimated skin types into a structured datase
 
 ## 
 
-## **Results**
+## :dart: Results
 
 In our project *Exploration of Beauty Standards and Age in Film (1970s–2020s)*, we set out to examine how visual and demographic representation among leading actresses has evolved over time. Using a combination of large-scale datasets and analytical R scripts, we assessed trends across race, age, physical traits (height, weight, BMI), and visual features (hair color, eye color, skin tone) among top actresses in each decade.
 
@@ -587,13 +588,13 @@ From that you can craft human-readable definitions, for example:
 ![Image 2025-6-24 at 16 34](https://github.com/user-attachments/assets/40e8ef45-7ce9-448a-9b02-cb0627f44299)
 
 
-**Example Case Study**
+:clipboard: **Example Case Study**
 
 In 2023, Disney faced criticism for its approach to inclusion when it cast Halle Bailey, whose performance and advocacy have made her a prominent voice for the Black community, as Ariel in its live-action remake. While many praised Disney for giving a platform to a talented, underrepresented actress, some viewers argued that simply “re-skinning” an originally white character overlooks deeper issues in the studio’s history of privileging lighter skin tones. Critics suggested that Disney could have promoted genuine diversity by creating new, original stories and characters, rather than recasting established white-skinned icons, a strategy some dismissed as mere **“blackwashing”** rather than true, substantive inclusion. Additionally, the criticism regards the **“brownwashing”** of Snow White in 2025.
 
 
 
-### **Key Findings:**
+### :old_key: **Key Findings:**
 
 * **Racial Diversity**: Our results show a clear shift toward greater racial diversity in recent decades. While White actresses overwhelmingly dominated from the 1970s to the 1990s, the 2020s featured a marked increase in the representation of **Black**, **Asian**, and **Hispanic** actresses.
 
@@ -611,7 +612,7 @@ In 2023, Disney faced criticism for its approach to inclusion when it cast Halle
   * Black actresses had slightly higher BMI values.  
   * White actresses showed the most variation in body traits, including outliers at both ends of the spectrum.
 
-### **Conclusion:**
+### :pushpin: **Conclusion:**
 
 Our analysis confirms that **beauty standards in film have diversified over time**, particularly with respect to **race, skin tone, and body type**. While some traditional norms, such as slimness and fair skin, persist, the data indicates **a broader acceptance of different appearances** in contemporary casting. This shift aligns with increasing cultural and social awareness of inclusivity and representation.
 
@@ -631,16 +632,16 @@ Our central research question focused on how beauty standards and age representa
 
 Ultimately, this project offers a foundation for understanding how cultural pressures and social progress shape the visual narratives presented in film.
 
-## **Contributors**
+## :people_hugging: Contributors
 
-| Thanaphon Tatinij 113zm1010 田子芃 | Data cleaning, Data Collection, Poster |
+| Thanaphon Tatinij 113zm1010 田子芃 | Data cleaning, Data Collection, Poster, Presentation |
 | :---- | :---- |
-| Angeline Chong Jia Lin 111zu1042 張嘉琳 | Data collection, Poster, GitHub |
-| Pornnapat Pumipruek 111zu1050 王長婷  | Data Collection, Data analysis, Presentation |
-| Ratchadaporn Leungphetngam 111zu1051 陳秋天 | Data cleaning, Data filtering, Presentation slides  |
-| Jehud Neri Sabbat 111zu1035 沙杰武 | Data cleaning, Data visualization, Github Set up |
+| Jehud Neri Sabbat 111zu1035 沙杰武 | Data cleaning, Data visualization, Github Set up, Presentation |
+| Angeline Chong Jia Lin 111zu1042 張嘉琳 | Data collection, Poster, READ.ME file, Presentation |
+| Pornnapat Pumipruek 111zu1050 王長婷  | Data collection, Data analysis, Presentation |
+| Ratchadaporn Leungphetngam 111zu1051 陳秋天 | Data cleaning, Data filtering, Presentation |
 
-## **Acknowledgments**
+## :man_teacher: Acknowledgments
 
 We would like to express our heartfelt gratitude to Professor Pien Chung-Pei, our instructor for the *Big Data for Social Analysis* course, for his invaluable guidance and support throughout the development of our project, *Exploration of Beauty Standards and Age in Film (1970s–2020s)*. His insights and expertise played a crucial role in shaping our approach and helping us navigate various challenges during the research process.
 
@@ -648,7 +649,7 @@ We are also deeply thankful to the other student teams who offered their support
 
 Finally, we would like to extend our sincere appreciation to every member of our team. Your dedication, perseverance, and collaborative spirit were essential in bringing this project to life. Through your collective efforts, we were able to conduct a meaningful exploration of media representation using big data methods.
 
-## **References**
+## :bookmark_tabs: References
 
 Data Sources:
 * Actor Data: https://www.kaggle.com/datasets/rishabjadhav/imdb-actors-and-movies/data
