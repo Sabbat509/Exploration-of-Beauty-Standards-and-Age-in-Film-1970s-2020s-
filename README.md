@@ -413,9 +413,9 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 ![Image 2025-6-24 at 16 38 (1)](https://github.com/user-attachments/assets/c8149601-0f91-4833-a11c-0d8c75ac7a3a)
  
-	**Most dominant colors**:
+**Most dominant colors**:
 
-* Overall: brown  
+* Overall: $${\color{lightblue}brown}$$ 
 * 70s: blonde and brown  
 * 80s: brown  
 * 90s: blonde  
@@ -425,14 +425,14 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 #### 👁️ **Dominant Eyes Color by Decade**
 
-* **Overall**: :brown_heart: :blue_heart: Brown and blue were the most common colors.
+* **Overall**: :brown_heart::blue_heart: Brown and blue were the most common colors.
 
 * **Decade-wise**:
 ![Image 2025-6-24 at 16 38](https://github.com/user-attachments/assets/45a256be-354e-4d74-a512-6bcd72db749f)
  
 **Most dominant colors**:
 
-* Overall: brown and blue  
+* Overall: $${\color{lightblue}brown \space and \space blue}$$  
 * 70s: blue  
 * 80s: brown  
 * 90s: blue  
@@ -442,6 +442,9 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 #### ⛪ **Ethnicity Representation**
 
+* **Overall**: :white_heart: White remained the most dominant group despite a gradual decline in their proportion in more recent decades.
+  
+* **Decade-wise**:
 ![Image 2025-6-24 at 16 37](https://github.com/user-attachments/assets/6b65e36f-1f18-4315-b1b1-6f4854938934)
 
 
@@ -455,6 +458,9 @@ To extend from the previous part. In this step, we visualized various patterns a
 
 ### 🙋‍♀️ **Skin Color Types by Ethnicity**
 
+* **Overall**: :white_heart: Fitzpatrick Skin Type II has remained the most consistently represented skin type, which corresponds to White individuals.
+
+* **Decade-wise**:
 ![Image 2025-6-24 at 16 36](https://github.com/user-attachments/assets/5a4ecdb1-dd44-4fed-af3a-4416be7257a4)
 
 #### 
@@ -521,7 +527,7 @@ Combine the scraped attributes and estimated skin types into a structured datase
 
 In our project *Exploration of Beauty Standards and Age in Film (1970s–2020s)*, we set out to examine how visual and demographic representation among leading actresses has evolved over time. Using a combination of large-scale datasets and analytical R scripts, we assessed trends across race, age, physical traits (height, weight, BMI), and visual features (hair color, eye color, skin tone) among top actresses in each decade.
 
-## **H₁: “Each decade has a dominant beauty cluster.”**
+## :one: **H₁: “Each decade has a dominant beauty cluster.”**
 
 * **Test:** χ² test of independence between Decade and Cluster
 
@@ -564,7 +570,7 @@ From that you can craft human-readable definitions, for example:
 
   * Brown eyes, darker hair colors, and more racial/ethnic diversity
 
-## **H₂: “Youth-centered clusters (actresses under 30\) dominate more consistently in recent decades.”**
+## :two: **H₂: “Youth-centered clusters (actresses under 30\) dominate more consistently in recent decades.”**
 
 1. **Descriptive trend** (proportion under 30 by decade):
 
@@ -588,7 +594,7 @@ From that you can craft human-readable definitions, for example:
 ![Image 2025-6-24 at 16 34](https://github.com/user-attachments/assets/40e8ef45-7ce9-448a-9b02-cb0627f44299)
 
 
-:clipboard: **Example Case Study**
+## :clipboard: **Example Case Study**
 
 In 2023, Disney faced criticism for its approach to inclusion when it cast Halle Bailey, whose performance and advocacy have made her a prominent voice for the Black community, as Ariel in its live-action remake. While many praised Disney for giving a platform to a talented, underrepresented actress, some viewers argued that simply “re-skinning” an originally white character overlooks deeper issues in the studio’s history of privileging lighter skin tones. Critics suggested that Disney could have promoted genuine diversity by creating new, original stories and characters, rather than recasting established white-skinned icons, a strategy some dismissed as mere **“blackwashing”** rather than true, substantive inclusion. Additionally, the criticism regards the **“brownwashing”** of Snow White in 2025.
 
