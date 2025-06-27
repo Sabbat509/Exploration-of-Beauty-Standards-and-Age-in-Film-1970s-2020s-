@@ -640,8 +640,9 @@ Ultimately, this project offers a foundation for understanding how cultural pres
 
 ## :people_hugging: Contributors
 
-| Thanaphon Tatinij 113zm1010 田子芃 | Data cleaning, Data Collection, Poster, Presentation |
+|  |  |
 | :---- | :---- |
+| Thanaphon Tatinij 113zm1010 田子芃 | Data cleaning, Data Collection, Poster, Presentation |
 | Jehud Neri Sabbat 111zu1035 沙杰武 | Data cleaning, Data visualization, Github Set up, Presentation |
 | Angeline Chong Jia Lin 111zu1042 張嘉琳 | Data collection, Poster, READ.ME file, Presentation |
 | Pornnapat Pumipruek 111zu1050 王長婷  | Data collection, Data analysis, Presentation |
