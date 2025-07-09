@@ -646,7 +646,7 @@ Ultimately, this project offers a foundation for understanding how cultural pres
 | Jehud Neri Sabbat 111zu1035 沙杰武 | Data cleaning, Data visualization, Github Set up, Presentation |
 | Angeline Chong Jia Lin 111zu1042 張嘉琳 | Data collection, Poster, READ.ME file, Presentation |
 | Pornnapat Pumipruek 111zu1050 王長婷  | Data collection, Data analysis, Presentation |
-| Ratchadaporn Leungphetngam 111zu1051 陳秋天 | Data cleaning, Data filtering, Presentation |
+| Ratchadaporn Leungphetngam 111zu1051 陳秋天 | Data collection, Data cleaning, Data filtering, Presentation |
 
 ## :man_teacher: Acknowledgments
 
